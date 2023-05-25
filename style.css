@@ -1,0 +1,108 @@
+/*general styling*/
+body {
+  font-family: sans-serif;
+  background-color: #DFD3B8;
+
+  } 
+
+.hide{
+    display:none;
+
+
+}
+/* Header styling */
+h1{
+  text-align: center;
+  letter-spacing: 0.15em; 
+  font-family: sans-serif;
+  margin-top: 150px;
+  
+  }
+
+header {
+     display: flex;
+    justify-content: space-between; 
+    flex-direction: row;
+    margin: 15 20px;
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+
+/* Highscores styling */
+#highscores{
+    text-align:center;
+    margin-top:150px;
+}
+
+
+/* start screen styling */
+#intro {
+    
+    margin-left: 380px; 
+    text-align: center;
+    width: 45%;
+    margin-top: 20px;  
+}
+
+/* start button style */
+ #startBtn {
+   margin-left: 630px;
+   margin-top: 30px;   
+   font-family:monospace;
+   font-weight: bolder;
+   font-size: 18px;
+   justify-content:center;
+   
+
+} 
+
+
+#startBtn:hover {
+  background-color: DFD3B8; 
+  color: white;
+}
+
+/* end of quiz styling */
+#endquiz {
+
+    text-align:center;
+    padding: 5px;
+    border-radius: 5px;
+    transition: all 0.3s; 
+
+}
+/* timer styling */
+.timer {
+    position:absolute;
+    top: 10px;
+    right: 10px;
+    
+}
+
+/* question section styling */
+#questions-container {
+flex-flow: column;
+max-width: 40%;
+margin: auto;
+
+}
+#results-container{
+  justify-content:center;
+  
+}
+
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    .card {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Media query for larger screens */
+  @media (min-width: 769px) {
+    .card {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
