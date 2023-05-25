@@ -26,3 +26,5 @@ After the user inputs their initals they are brought to the highscore page where
 
 Last picture shows what happens when you click clear highscores. 
 
+
+URL to deployed site: https://yangc90.github.io/Coding-quiz-challenge/
